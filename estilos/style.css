@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+
+
 
 
 
@@ -33,45 +37,56 @@ main{
     display: inline-block;
     text-align: right;
     align-items: right;
-    height: 150px;
+    height: 300px;
     width: 100%;
-    background-color:rgb(232, 147, 224) ;
+    background-color:rgb(243, 222, 240) ;
 }
 
 .ulMenu{
     height: 100%;
     width: 100%;
-   
+   margin-right: 20px;
     display: flex;
 }
 
 .nomeLoja{
    
-    font-size: 20em;
-    color: pink;
-    border-radius: 1px solid black;
+    font-size: 25em;
+    font-family: 'Moo Lah Lah';
+    color: aliceblue;
     margin-top: 1%;
-    font-style: italic;
     font-weight: bolder;
     margin-left: 28px;
-    margin-right: 270px;;
+    margin-right: 550px;
+    width: 350px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: rgb(226, 43, 104);
 }
 
 .liComum{
     
-   margin-top: 3%;
+   margin-top: 200px;
     right: 0;
     font-size: 10em;
-    padding: 5px 1px;
+    align-items: flex-end;
+    /* padding: 5px 1px; */
     font-style: none;
     margin-left: 65px;
 }
 
-.inputPesquisa{
-    height:50px;
-    width:50px;
-    right:1%;
+.liComum:hover{
+    color: rgb(226, 43, 104);
 }
+
+.inputdiv{
+    height:30px;
+    width:50px;
+    right:20px;
+    background-color:rgb(243, 222, 240);
+   
+}
+
+
 
 .corpo{
     display: flex;
@@ -104,6 +119,10 @@ main{
     
 }
 
+.box:hover{
+    background-color: aliceblue;
+}
+
 .divUp{
     width:400px;
     height:400px;
@@ -128,6 +147,10 @@ main{
     font-size: 1em;
     font-weight: lighter;
 
+}
+
+.nomeDoProduto:hover{
+    color: rgb(226, 43, 104);
 }
 
 .ulEstrela{
@@ -163,6 +186,11 @@ main{
     color: aliceblue;
     border: 1px solid aliceblue;
 
+}
+
+.buttonBox:hover{
+    background-color: rgb(160, 4, 191);
+    color:  rgb(76, 228, 46);
 }
 
 .divPrice{
